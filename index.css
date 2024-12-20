@@ -62,7 +62,8 @@ body{
     font-size: 120px;
     font-family: Dela Gothic One;
     line-height: 120px;
-    margin-top: auto;
+    margin-top: 90px;
+    margin-bottom: 30px;
 }
 #head4{
     font-weight: 400;
@@ -135,7 +136,7 @@ img, .services, .yayy, .yayy1 {
     font-size: 28px;
     font-family: Dela Gothic One;
     color: rgba(66, 25, 52, 1);
-    padding-top: 20px;
+    margin-top: 30px;
  
 }
 .yayy{
@@ -384,3 +385,46 @@ footer {
         margin: auto;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
