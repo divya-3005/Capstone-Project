@@ -286,6 +286,9 @@ footer {
 }
 
 @media (max-width:600px) {
+    .header h1{
+        font-size: 10vw;
+    }
     #section1 {
         display: block;
     }
@@ -340,7 +343,8 @@ footer {
         align-items: center;
         width: 80vw;
         height: auto;
-        line-height: 1.5;
+        /* line-height: 90px; */
+        padding-bottom: 10px;
     }
 
 
