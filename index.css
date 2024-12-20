@@ -1,5 +1,10 @@
+*{
+    margin:0;
+    padding: 0;
+}
 body{
     background-color: rgba(249, 245, 250, 1);
+    width: 100vw;
 }
 .header{
     background-color: rgba(205, 55, 153, 0.06);
@@ -20,7 +25,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 32px;
-    width: 221px;
+    width: auto;
 
 
 }
@@ -42,7 +47,7 @@ body{
 }
 .h1{
     height: 42px;
-    width: 380px;
+    width: auto;
     display: flex;
     align-items: center;
 
@@ -72,6 +77,7 @@ body{
 #section1 {
     display: grid;
     gap: auto;
+    width: 100%;
 }
 #i2{
     grid-row-start: 1;
@@ -97,6 +103,7 @@ body{
 }
 img, .services, .yayy, .yayy1 {
     padding: 25px;
+    width: auto;
 
 }
 #i5 {
@@ -169,6 +176,7 @@ img, .services, .yayy, .yayy1 {
     font-size: 48px;
     line-height: 52px;
     text-align: center;
+    margin: auto;
     width: 100%;
     font-family: Dela Gothic One;
     color: rgba(66, 25, 52, 1);
@@ -177,6 +185,7 @@ img, .services, .yayy, .yayy1 {
 #section2{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 #section2 div {
     display: flex;
@@ -188,7 +197,7 @@ img, .services, .yayy, .yayy1 {
     flex-direction: row;
     height: 216px;
     gap: 24px;
-    width: 1344px;
+    width: 100%;
     margin: 80px 48px 200px 48px;
     overflow: scroll;
     justify-content: space-between;
@@ -205,7 +214,7 @@ img, .services, .yayy, .yayy1 {
     background-color: rgba(222, 207, 217, 0.4);
     padding: 24px;
     height: auto;
-    width: 288px;
+    width: auto;
     border-radius: 16px;
     border: 1px solid rgba(34, 27, 32, 0.16);
 
@@ -215,9 +224,6 @@ img, .services, .yayy, .yayy1 {
     flex-direction: row;
     padding: 0px;
 }
-/* .line{
-    border: 1px solid rgba(34, 27, 32, 0.16)
-} */
 .pe1 p:first-child{
     width: 180px;
     height: 20px;
@@ -240,8 +246,8 @@ img, .services, .yayy, .yayy1 {
 }
 .pe2 {
     padding-bottom: 8px;
-    height: 240px;
-    width: 104px;
+    height: auto;
+    width: auto;
     padding-left: 45px;
     margin-left: 50px;
     margin-right: 0;
@@ -256,6 +262,7 @@ img, .services, .yayy, .yayy1 {
 
 
 }
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -280,15 +287,16 @@ footer {
 
 @media (max-width:600px) {
     #section1 {
-        display:block;
+        display: block;
     }
     #section2{
-        display:block;
+        display: block;
 
     }
 
     #people {
         display: block;
+        margin-left: 10px;
     }
     .head2 {
         font-size: 38px;
@@ -307,7 +315,8 @@ footer {
         margin: auto;
 
     }
-    #people div{
+    #people > div{
+        padding: 5px;
         margin: 20px;
         height: auto;
     }
@@ -331,9 +340,7 @@ footer {
         align-items: center;
         width: 80vw;
         height: auto;
-    }
-    .header {
-        line-height: 2;
+        line-height: 1.5;
     }
 
 
@@ -357,6 +364,12 @@ footer {
     }
     .header h1 {
         margin: auto;
+    }
+    .serviceall{
+        display: block;
+    }
+    footer{
+        display:block;
     }
 }
 
